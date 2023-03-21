@@ -1,0 +1,626 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Noto Sans', sans-serif;
+}
+ :root{
+     --bg-orange:#e9c703;
+     --clr-white: #fff;
+     --download-heading: 21px;
+ }
+
+
+ #banner
+ {
+     width: 100%;
+     height: 60vh;
+     background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../Images/jyoti-residency-banner.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     overflow: hidden;
+ }
+ #banner header
+ {
+        height: 128px;
+        width: 255px;
+        background-color: #e9c703;
+        border-radius: 50%;
+        text-align: center;
+        float: right;
+        margin-top: -60px;
+      
+ }
+ #banner header h6
+ {
+     color: var(--clr-white);
+     padding-top:30%;
+     padding-right: 40px;
+    
+ }
+ .Logo 
+ {
+     width: 30%;
+     margin: 0 auto;
+     text-align: center;
+     position: relative;
+     top: 20px;
+ }
+ .Logo img
+ {
+     width: 40%;
+ }
+
+ .banner_text
+ {
+    width: 28%;
+    margin-left: 40px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5));
+    margin-top: 10%;
+   
+ }
+ .banner_text hr
+ {
+     width: 88%;
+    border: 1px solid lightgray;
+    margin-left: 12px;
+     
+ }
+ .banner_text h4
+ {
+     color: #e9c703;
+     padding: 8px 0px 0px 12px;
+ }
+ .banner_text p
+ {
+    padding: 0px 0px 7px 12px;
+   
+ }
+
+
+ /* Form_section */
+
+ 
+
+ .banner-form
+ {
+     background: #25210d;
+     padding-bottom: 30px;
+ }
+
+ .banner-form h2
+ {
+     color: var(--clr-white);
+     margin-bottom: 25px;
+ }
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 300;
+}
+.contactForm
+{
+    width: 60%;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+   
+}
+
+
+.contactForm .inputBox input
+{
+    width: 100%;
+    /* padding: .5rem 0; */
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #3f360e;
+    outline: none;
+    /* resize: none; */
+    background: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+    color: var(--clr-white);
+ 
+}
+
+.contactForm input
+{
+  color: var(--clr-white);
+  padding: 12px 0px 2px 0px;
+}
+
+.Btn_1
+{
+    padding: 10px 60px;
+    background: none;
+    color: var(--clr-white);
+    border: 2px solid #333;
+}
+
+/* .contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 1.2rem;
+    transform: translateY(-2rem);
+} */
+
+
+/* About_section */
+.About
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.About h2, .About h3
+{
+    color: #333;
+}
+
+.Btn_2
+{
+    padding: 6px 50px;
+    background: var(--bg-orange);
+    border: none;
+    text-transform: uppercase;
+}
+
+.passion
+{
+    background: #25210d;
+}
+/* .no-gutters 
+{
+    display: flex;
+} */
+.card
+{
+    background: none;
+    border: none;
+    width: 24%;
+}
+.card img
+{
+    width: 50%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+/* Rooftop starts */
+
+.Rooftop
+{
+    background: lightgoldenrodyellow;
+    padding: 40px 0px;
+}
+
+
+/* gallary starts */
+
+.gallary
+{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.gallary_img
+{
+    position: relative;
+ 
+   
+}
+.gallary_img img
+{
+    width: 100%;
+   
+}
+.gallary_text 
+{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    width: 100%;
+    height: 100%;
+}
+
+.gallary_text p
+{
+    margin-top: 20%;
+}
+
+/* gallry ends */
+
+.Hightlights
+{
+    background: #25210d;
+    padding: 30px 0px;
+}
+.Hightlights p
+{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.list
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.list_text li
+{
+ list-style: none;
+ padding: 5px 0px;
+}
+.hr
+{
+    border: 1px solid grey;
+}
+
+/* Lacation_section starts */
+
+.location_section
+{
+    background: lightgray;
+    padding: 40px 0px;
+}
+.location_section h3
+{
+    color: #333;
+}
+
+.location_section
+{
+    width: 100%;
+}
+
+.loc
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.loc_left
+{
+    width: 50%;
+}
+.loc img
+{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+.loc_left li
+{
+    padding: 8px;
+    margin-left: 50px;
+}
+.Btn_3
+{
+    padding: 6px 15px;
+   
+}
+/* Lacation_section ends */
+
+/* complete project starts */
+
+.Complete
+{
+    padding: 30px 0px;
+    background: rgb(235, 201, 188);
+    overflow: hidden;
+}
+.Projects
+{
+    width: 58%;
+}
+.Complete p
+{
+    font-weight: bold;
+    line-height: 35px;
+}
+.Complete span
+{
+    margin: 15px;
+}
+/* complete project ends */
+
+
+/* Footer starts */
+
+.Footer
+{
+    padding: 40px 10px 4px 10px;
+}
+.Footer span
+{
+    text-transform: capitalize;
+}
+
+.box
+{
+    width: 75%;
+}
+
+.footer_hr
+{
+    border: 1px solid lightgray;
+   
+}
+
+.Footer_text p, .Footer_text h6
+{
+ padding-left: 30px;
+}
+
+
+.Last_content
+{
+    text-align: right;
+    font-size: 14px;
+    padding-right: 3px;
+}
+
+
+/* Responsive code starts */
+
+@media only screen and (max-width:970px) {
+    
+    #banner
+    { 
+        height: 60vh;
+    }
+    
+    .contactForm
+    {
+        width: 100%;
+    }
+
+    .banner_text
+    {
+    width: 35%;
+   
+    }
+
+    .Logo img
+    {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+   
+.Logo 
+ {
+     width: 40%;
+    
+ }
+   
+.banner_text
+ {
+ width: 60%;
+ margin-top: 9%;
+ }
+.banner_text h4
+{
+font-size: 20px;
+}
+
+.banner-form h2
+{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.About h2, .About h3
+{
+   font-size: 22px;
+}
+.About p
+{
+    font-size: 16px;
+}
+
+.card
+{
+   
+    width: 60%;
+    text-align: center;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+.card img
+{
+    width: 40%;   
+    margin-left: 0px;
+  
+}
+
+.gallary_img
+{
+   margin-bottom: 20px;
+}
+
+.Rooftop_text h4
+{
+    font-size: 22px;
+} 
+
+.Hightlights h3
+{
+    font-size: 22px;
+}
+.Hightlights p
+{
+    width: 90%;
+   
+}
+
+.list
+{
+    width: 90%;
+   flex-direction: column;
+}
+.hr
+{
+    /* border:none;
+   color: darkgrey; */
+   display: none;
+}
+
+.list_text_2
+{
+    border-bottom: 1px solid grey;
+}
+
+.location_section h3 
+{
+    font-size: 22px;
+}
+
+.loc
+{
+    flex-direction: column;
+}
+
+.loc_left
+{
+    width: 90%;
+}
+
+.loc_left img{
+    width: 85%;
+}
+.loc_left li
+{
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.Projects
+{
+    width: 70%;
+}
+.box
+{
+    width: 90%;
+}
+
+.Footer img
+{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.footer_hr
+{
+  display: none;
+}
+
+}
+
+@media only screen and (max-width:570px)
+{
+#banner header
+ {
+        height: 115px;
+        width: 200px;
+        margin-top: -50px;
+       
+ }
+
+    .Logo 
+    {
+        width: 60%;
+    }
+      
+   .banner_text
+    {
+    width: 70%;
+    margin-top: 10%;
+    }
+   .banner_text h4
+   {
+   font-size: 19px;
+   }
+
+   .About h2, .About h3
+{
+   font-size: 19px;
+}
+.location_section h3, .Hightlights h3, .Rooftop_text h4, .Complete h4
+
+{
+    font-size: 18px;
+}
+
+.Complete p
+{
+    font-size: 14px;
+    line-height: 32px;
+}
+.card-title
+{
+    font-size: 18px;
+}
+
+.Footer p{
+    font-size: 13px;
+}
+
+}
+
+
+@media only screen and (max-width:470px)
+{
+   
+    .Logo 
+    {
+        width: 60%;
+        margin-top: 15px;
+    }
+    
+    .Logo img
+    {
+        width: 60%;
+    }
+
+   .banner_text
+    {
+    width: 90%;
+    margin-top: 20%;
+    margin-left: 10px;
+    }
+   .banner_text p
+   {
+   font-size: 14px;
+   }
+
+    .location_section h3, .Hightlights h3, .Rooftop_text h4, .Complete h4
+
+    {
+        font-size: 17px;
+    }
+}
